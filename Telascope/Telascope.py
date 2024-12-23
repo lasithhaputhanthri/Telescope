@@ -15,10 +15,10 @@ for key, value in status.items():
     printed_lines.append(line)  # Add the line to the list
 
 # Focus on the moon and auto zoom-in
-s.main.setFocus(target='moon', mode='zoom')
+s.main.setFocus(target='sun', mode='zoom')
 
 # Get info about the moon
-moon_info = s.objects.getInfo('moon')
+moon_info = s.objects.getInfo('sun')
 
 # Add moon info to the printed lines list
 for key, value in moon_info.items():
